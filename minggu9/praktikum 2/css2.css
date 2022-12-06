@@ -1,0 +1,50 @@
+body {
+    background: #35A9DB;
+    font-family: roboto;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.ketengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+
+.kotak1 {
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+    background: linear-gradient(red, green);
+    background: -webkit-linear-gradient(red, green);
+}
+
+.kotak2 {
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+    background: linear-gradient(to right, red, yellow, green);
+    background: -webkit-linear-gradient(left, red, yellow, green);
+}
+
+.kotak3 {
+    background: -webkit-radial-gradient(red, green, yellow);
+    background: radial -gradient( red, green, yellow);
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+}
+
+.kotak4 {
+    background: -webkit-radial-gradient(circle, red, green, yellow);
+    background: radial -gradient(circle, red, green, yellow);
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minggu 4</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body class="container">
+    <div class="ul-container">
+        <p class="p-navbar">BELAJAR PHP BIAR GAK MUDAH KENA PHP</p>
+    </div>
+    <form method="POST" action="proses.php" class="table-container">
+
+        <table class="table">
+
+            <tr>
+                <td>Nama :</td>
+                <td>:</td>
+                <td>
+                    <input type=text name="nama" placeholder="Nama" required>
+                </td>
+            </tr>
+            <tr>
+                <td>NIM :</td>
+                <td>:</td>
+                <td>
+                    <input type=text name="nim" placeholder="Nomor Induk Mahasiswa" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Tgl lahir :</td>
+                <td>:</td>
+                <td>
+                    <input type="date" name="ttl" placeholder="1/1/1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Program studi</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi" required>
+                        <option>Program studi</option>
+                        <option>S1 Teknik informatika</option>
+                        <option>S1 Sistem informasi</option>
+                        <option>D3 Teknik informatika</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Bidang minat :</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="minatstudi">
+                    <label>Web Programming</label>
+                    <input type="checkbox">
+                    <label>Mobile Programming</label>
+                    <input type="checkbox">
+                    <label>data science</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Berkas CV :</td>
+                <td>:</td>
+                <td>
+                    <input type="file" name="file">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="sub">
+                    <input type="reset" name="reset">
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+</body>
+
+</html>

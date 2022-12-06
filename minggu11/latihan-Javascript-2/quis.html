@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3>daftar mahasiswa</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="">
+        <input type="text" id="tambahdata" name="mhs" placeholder="tambahkan nama">
+        <input type="submit" value="+">
+    </form>
+    <div id="counter">
+        <!-- 3 mahasiswa terdaftar -->
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>nama MHS</td>
+            </tr>
+        </thead>
+        <tbody id="daftarnama">
+            <!-- dinamis pakai javascript -->
+        </tbody>
+    </table>
+    <script>
+    var apl = function() {
+        this.el = document.getElementById('daftarnama');
+
+        this.nama = ['jono','jini','joni'];
+
+        this.barisA11 = function() {
+            var data = '';
+            if (this.nama.length > 0){
+                for (i=0; i < this.nama.length; i++){
+                    data+= '<tr>';
+                    data+= '<td>' + this.nama[i] + '</td>;'
+                    data+= '</tr>';    
+                }
+            }
+            
+
+    </script>
+</body>
+</html>

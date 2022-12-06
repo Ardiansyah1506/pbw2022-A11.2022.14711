@@ -1,0 +1,105 @@
+* html {}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.nav-container {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 10px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname {
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+.lastname {
+    color: crimson;
+    padding-left: 4px;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul>li {
+    padding: 15px;
+}
+
+.nav-ul>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-ul>li>a:hover {
+    color: brown;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.nav-ul>li>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.nav-ul>li>img:hover {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    transition: all .3s ease-in-out;
+}
+
+.ula {
+    background-color: crimson;
+    color: wheat;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ula:hover {
+    color: white !important;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.p1 {
+    background-color: blanchedalmond;
+    width: 70%;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.footer-container {
+    display: table;
+    float: right;
+    background-color: darkkhaki;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
